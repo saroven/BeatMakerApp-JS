@@ -97,6 +97,27 @@ select {
 .mute.active {
   background-color: lightgray;
 }
+
+.tempo {
+  margin: 3rem;
+  width: 30%;
+}
+.tempo-slider {
+  padding: 0.1rem;
+  margin: 1rem 0rem;
+  position: relative;
+  width: 100%;
+  background: rgb(88, 88, 88);
+  cursor: pointer;
+  border-radius: 1rem;
+  -webkit-appearance: none;
+}
+
+.tempo p {
+  font-size: 1.5rem;
+  margin: 2rem;
+  text-align: center;
+}
 @keyframes playTrack {
   from {
     transform: scale(1);
